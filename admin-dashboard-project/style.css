@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    font-weight: bold;
+}
+
+h5,h2{
+    margin: 0;
+}
+
+h4,h5{
+    padding-left: 5px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    grid-template-rows: 0.5fr 0.5fr 4fr 4fr;
+    padding-left: 15px;
+}
+
+.sidebar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 4fr 16fr;
+    gap: 20px;
+    background-color: #0ea5e9;
+    color: white;
+}
+
+.header-one{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.header-two{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.main-content{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: rgb(216, 216, 216);
+    display: grid;
+    grid-template-columns: 2fr 2fr 1.75fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main-cards-container{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr 1fr;
+}
+
+.main-right{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr 1fr;
+}
+
+.sidebar-icon-one,.sidebar-icon-two,.sidebar-text-one,.sidebar-text-two,.sidebar-text-three,.sidebar-icon-three{
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    height: max-content;
+    gap: 10px;
+}
+
+.sidebar-p-one{
+    font-size: 30px;
+}
+
+.svg-sidebar-one{
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.svg-sidebar-two{
+    height: 18px;
+    width: 18px;
+    color: white;
+}
+
+.search-bar{
+    border-radius: 10px;
+    background-color: rgb(216, 216, 216);
+    height: 20px;
+    width: 400px;
+}
+
+.search-div{
+    justify-self: center;
+}
+
+.buttons{
+    border-radius: 20px;
+    background-color: #0ea5e9;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+    align-self: center;
+    justify-self: center;
+}
+
+#bell{
+    justify-self:end;
+}
+
+.p-gray,.p-gray-small{
+    color: gray;
+    padding-left: 5px;
+}
+
+.p-gray-small{
+    font-size: small;
+}
+
+.your-projects{
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    margin-left: 25.5px;
+    margin-top: 20px;
+}
+
+.first-bee-icon{
+    width: 20px;
+    height: 20px;
+    justify-self: center;
+}
+
+.second-bee-icon{
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    justify-self: center;
+}
+
+
+.main-cards{
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    border-left: 8px solid orange;
+    margin-bottom: 20px;
+    justify-self: center;
+}
+
+hr.solid {
+    border-top: 1px solid #bbb;
+}
+
+.side-card-one,.side-card-two{
+    background-color: white;
+    justify-self: center;
+    border-radius: 15px;
+    width: 317px;
+    height: 350px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-right-side{
+    width: 250px;
+    height: 250px;
+}
+
+.cont-right-side-bottom{
+    width: 250px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.right-bottom-icons{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.right-bottom-text{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.credit{
+    text-align: center;
+}
